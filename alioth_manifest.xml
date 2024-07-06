@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="aosp-14"
+<remote name="ursa"
           fetch="https://github.com/Localhorst04"
-          revision="ursa" />
+          revision="aosp-14" />
   
-<remote name="udc"
+<remote name="ursina"
           fetch="https://github.com/Localhorst04"
-          revision="ursina" />
+          revision="udc" />
 
   <!--Device tree-->
   <project name="device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="ursa"/>
