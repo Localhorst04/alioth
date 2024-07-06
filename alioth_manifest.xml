@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="aosp-14"
+          fetch="https://github.com/Localhorst04"
+          revision="ursa" />
+  
+<remote name="udc"
+          fetch="https://github.com/Localhorst04"
+          revision="ursina" />
+
+  <!--Device tree-->
+  <project name="device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="ursa"/>
+  <project name="device_xiaomi_alioth" path="device/xiaomi/alioth" remote="ursa"/>
+  
+  <!-- Vendor -->
+  <project name="vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="ursa"/>
+  <project name="vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="ursa"/>
+
+  <!-- Kernel -->
+  <project name="kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="ursa"/>
+
+  <!-- Hardware & DeviceSettings -->
+  <project name="hardware_xiaomi" path="hardware/xiaomi" remote="ursina"/>
+  <project name="packages_resources_devicesettings" path="packages/resources/devicesettings" remote="ursina"/>
+
+</manifest>
