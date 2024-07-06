@@ -1,7 +1,7 @@
 # _clone device trees_ #
 __________________________
 
-git clone https://github.com/Localhorst04/alioth -b main .repo/alioth
+git clone https://github.com/Localhorst04/alioth -b main .repo/local_manifests
 __________________________
 
 -- _Please note that i did NOT write these Device Trees myself. Johnmart19 is the developer behind all this.
