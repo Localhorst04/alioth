@@ -1,3 +1,3 @@
-#clone device trees
+# _clone device trees_ #
 __________________________
 git clone https://github.com/Localhorst04/alioth -b main .repo/alioth
